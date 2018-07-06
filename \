@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Baylands Inc</title>
+	</head>
+
+	<body>
+		<h1>Baylands Incubator</h1>
+		<ul>
+			<li><a href="landingpage.html">Home</a></li>
+			<li><a href="aboutpage.html">About Us</a></li>
+			<li><a href="projectspage.html">Projects</a></li>
+			<li><a href="teampage.html">Team</a></li>
+			<li><a href="contactpage.html">Contact Us</a></li>
+		</ul>
+		<h2>Our work</h2>
+		<p>General descriptions of what each of us is working on, etc</p>
+
+	</body>
+
+</html>

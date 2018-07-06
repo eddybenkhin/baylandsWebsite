@@ -1,0 +1,90 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: linear-gradient(black, #93d7ff);
+	color: #007bff;
+	margin: 0 auto;
+}
+
+section {
+
+	position: absolute;
+	top: 15%;
+	left: 50%;
+}
+
+
+footer {
+	background: #111;
+	color: #007bff;
+	font-family: Quicksand;
+	bottom: 5%;
+	position: absolute;
+
+}
+
+header {
+	background:none;
+	color: #007bff;
+	font-family: Montserrat;
+	font-size: 14px;
+	padding: 15px 15px 0 15px;
+}
+
+header h1 {
+
+	color: #007bff;
+	font-size: 28px;
+	margin-left: 5%;
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin-right: 10%;
+	font-family: Quicksand;
+	font-size: 14px;
+	font-weight: 500;
+
+	opacity: 1;
+}
+
+nav ul {
+	background: none;
+
+	color: blue;
+	margin: 0;
+
+
+}
+
+nav ul li {
+	background: none;
+	color: #007bff;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+a {
+	color: #007bff;
+}
+
+.secondary {
+	background: #222;
+	color: #007bff;
+}
+
+.avoidHeader {
+	position: absolute;
+	top: 50%;
+}
+
+.button:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
