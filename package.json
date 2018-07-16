@@ -1,14 +1,13 @@
 {
   "name": "baylands-website",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eddybenkhin/baylandsWebsite.git"
+    "url": "git+https://github.com/eddybenkhin/baylandsWebsite.git"
   },
   "author": "",
   "license": "ISC",
@@ -24,5 +23,7 @@
     "path": "^0.12.7",
     "request": "^2.87.0",
     "url-parser": "0.0.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

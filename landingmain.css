@@ -31,33 +31,44 @@ footer {
 header {
 	background:none;
 	color: #007bff;
-	font-family: Montserrat;
+	font-family: Quicksand;
+	font-weight: 500;
 	font-size: 14px;
 	padding: 15px 15px 0 15px;
 }
 
 header h1 {
-
 	color: #007bff;
-	font-size: 28px;
+	font-size: 32px;
+	font-weight: 500;
 	margin-left: 5%;
 	float: left;
+}
+
+section h2 {
+	font-family: sans-serif;
+	font-style: italic;
+	color: white;
+}
+
+section {
+	font-family: sans-serif;
+	color: white;
+	right: 25%;
+	left: 10%;
+	top: 15%;
 }
 
 header nav {
 	float: right;
 	margin-right: 10%;
-	font-family: Quicksand;
+	font-family: Quicksand Bold;
 	font-size: 14px;
-	font-weight: 500;
-
 	opacity: 1;
 }
 
 nav ul {
 	background: none;
-
-	color: blue;
 	margin: 0;
 
 
@@ -71,9 +82,6 @@ nav ul li {
 	padding: 5px 15px;
 }
 
-a {
-	color: #007bff;
-}
 
 .secondary {
 	background: #222;
@@ -85,6 +93,64 @@ a {
 	top: 50%;
 }
 
-.button:hover {
-  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+.button {
+	background-color: none;
+	transform: translate(0,0px);
+	transition: transform 250ms ease-in-out;
+
 }
+
+.button a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+.button:hover {
+	transform: translate(0,-5px);
+}
+
+.button a {
+	position: relative;
+	text-decoration: none;
+}
+
+.button a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #ffffff;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX();
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.button a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX();
+}
+
+@font-face {
+	font-family: 'Quicksand';
+	src: url(Fonts/Quicksand_Book.otf);
+	font-style: normal;
+	font-weight: 100;
+
+}
+
+@font-face {
+	font-family: 'Quicksand Bold';
+	src: url(Fonts/Quicksand_Bold.otf);
+	font-style: normal;
+	font-weight: 600;
+
+}
+
+
+.view
